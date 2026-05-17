@@ -36,7 +36,6 @@
     <?php
         if(isset($_SESSION['resultadoCadastro'])){
             echo $_SESSION['resultadoCadastro'];
-
             //Método unset apaga o resultado da sessão.
             unset($_SESSION['resultadoCadastro']); 
         }
@@ -70,7 +69,7 @@
     ?>
 
     <footer>
-        &copy; Desenvolvido por: <span>Luciano Simas Junior</span>
+        &copy; Desenvolvido por: <span>Luciano Simas Junior - 3ª Fase de Técnico em Desenvolvimento de Sistemas - IFSC - Florianópolis</span>
     </footer>
 </body>
 </html>
