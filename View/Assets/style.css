@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+fieldset {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+    margin: 20px auto;
+}
+
+div button {
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+div button a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.listar {
+    background-color: #4CAF50;
+}
+
+.contar {
+    background-color: #2196F3;
+}
+
+.excluir {
+    background-color: #f44336;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 600px;
+    background-color: #fff;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
